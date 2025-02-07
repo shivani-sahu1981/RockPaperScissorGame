@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>RPS Game</h2>
+    <button type="submit">
+        <img src="https://i.ibb.co/CW5Wvry/buttonpng.png" alt="buttonpng" border="0" />
+      </button>
+
+    <button onclick="rock()"><img src="" >Rock</button>
+    <button onclick="paper()">Paper</button>
+    <button onclick="scissor()">Scissor</button>
+
+    <script>
+        function rock(){
+            let value = Math.floor(Math.random() * 3);
+            let r=0;
+            if(value == r){
+                alert("tie");
+            }
+            else if(value == 1){
+                alert("computer won");
+            }
+            else if(value == 2){
+                alert("you won")
+            }
+        }
+        function paper(){
+            let value = Math.floor(Math.random() * 3);
+            let p=0;
+            if(value == p){
+                alert("tie");
+            }
+            else if(value == 1){
+                alert("you won");
+            }
+            else if(value == 2){
+                alert("computer won")
+            }
+        }
+
+        function scissor(){
+            let value = Math.floor(Math.random() * 3);
+            let s=0;
+            if(value == s){
+                alert("tie");
+            }
+            else if(value == 1){
+                alert("computer won");
+            }
+            else if(value == 2){
+                alert("you won")
+            }
+        }
+    </script>
+</body>
+</html>
