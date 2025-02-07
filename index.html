@@ -7,14 +7,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>RPS Game</h2>
-    <button type="submit">
-        <img src="https://i.ibb.co/CW5Wvry/buttonpng.png" alt="buttonpng" border="0" />
-      </button>
-
-    <button onclick="rock()"><img src="" >Rock</button>
-    <button onclick="paper()">Paper</button>
-    <button onclick="scissor()">Scissor</button>
+    <div class="container">
+        <div class="heading">
+            <h2>RPS Game</h2>
+        </div>
+        <div class="images">
+            <button type="button" onclick="rock()">
+                <img src="https://media.istockphoto.com/id/170215830/photo/limestone.jpg?s=612x612&w=0&k=20&c=qkOXtIKgSbjSSWGPQdD-KAlh1_C5-U_B6_WpWMTRDzo=" style="width:100px; height: 100px;">
+              </button>
+            <button onclick="paper()">
+                <img src="https://images.unsplash.com/photo-1470790376778-a9fbc86d70e2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGFwZXIlMjBpbWFnZSUyMGluJTIwZ2FtZXxlbnwwfHwwfHx8MA%3D%3D" style="width:100px; height: 100px;">
+            </button>
+            <button onclick="scissor()">
+                <img src="https://media.istockphoto.com/id/1227445227/photo/large-open-scissors-on-white-background.jpg?s=612x612&w=0&k=20&c=h1-LjbXRSVTy9R5jcAWxUYvc6nCYKToCSpCALqOLADA=" style="width:100px; height: 100px;">
+            </button>
+        </div>
+    </div>
 
     <script>
         function rock(){
